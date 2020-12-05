@@ -4,6 +4,7 @@
     --primary-color: #EF4444;
     --off-white: #F3F4F6;
     --dark-gray: #374151;
+    --off-pink: #EC4899;
 }
 
 body {
@@ -57,6 +58,12 @@ hr {
     margin: auto;
     padding: 0rem 1rem;
 }
+.link-blog {
+    text-decoration: none;
+    /* padding: 0.5rem 1rem; */
+    font-weight: bold;
+    color: var(--off-pink);
+}
 /** look into BEM naming convention for CSS **/
 
 /** lists **/
@@ -99,7 +106,7 @@ hr {
 
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
 
 }
 
@@ -138,10 +145,12 @@ hr {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+
 }
 
 .footer .link {
