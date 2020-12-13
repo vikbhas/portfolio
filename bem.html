@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" />
     <title>BEM 101 | Vigneshwaraa Sarangapani</title>
 </head>
+
 <body>
     <nav class="navigation container">
         <div class="nav-brand">Full Stack Developer</div>
@@ -24,6 +26,101 @@
     <header class="hero">
         <h1 class="hero-heading">BEM <span class="heading-inverted"> 101</span></h1>
     </header>
+
+    <ul class="list-non-bullet">
+        <li>
+            <div class="container container-center">
+                <h1>Introduction</h1>
+                <p>BEM is a highly useful, powerful, and simple naming convention that makes your front-end code easier
+                    to read and understand, easier to work with, easier to scale, more robust and explicit, and a lot
+                    more strict.</p>
+            </div>
+        </li>
+        <li>
+            <div class="container container-center">
+                <h1>Naming</h1>
+                <p>The BEM approach ensures that everyone who participates in the development of a website works with a
+                    single codebase and speaks the same language. Using BEM’s proper naming convention will better
+                    prepare you for design changes made to your website.</p>
+            </div>
+        </li>
+        <li>
+            <div class="container container-center">
+                <h1>Why should we consider BEM?</h1>
+                <ol>
+                    <li class="list-ordered">If we want to make a new style of a component, we can easily see which
+                        modifiers and children already exist. We might even realize we don’t need to write any CSS in
+                        the first place because there is a pre-existing modifier that does what we need.</li>
+                    <li class="list-ordered">If we are reading the markup instead of CSS, we should be able to quickly
+                        get an idea of which element depends on another.</li>
+                    <li class="list-ordered">Designers and developers can consistently name components for easier
+                        communication between team members. In other words, BEM gives everyone on a project a
+                        declarative syntax that they can share so that they’re on the same page.</li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <div class="container container-center">
+                <h1>Block</h1>
+                <p>A block represents an object in your website. Think of it as bigger structural chunks of your code.
+                    Most common blocks on every website today are header, content, sidebar, footer, and search. Blocks
+                    in BEM are always a starting point of chaining your CSS classes on to. </p>
+            </div>
+        </li>
+        <li>
+            <div class="container container-center">
+                <h1>Element</h1>
+                <p>An element is a component within the block that performs a particular function. It should only make
+                    sense in the context of its block.</p>
+            </div>
+        </li>
+        <li>
+            <div class="container container-center">
+                <h1>Modifier</h1>
+                <p>A modifier is how we represent the variations of a block. If you’ve ever used Bootstrap, then the
+                    best example would be the button sizes. Button sizes are just size variations of the button itself,
+                    which makes it the modifier.</p>
+            </div>
+        </li>
+        <li>
+            <div class="container container-center">
+                <h1>Advantages and Concerns</h1>
+                <h2>Advantages</h2>
+                <ol>
+                    <li class="list-ordered">BEM is excellent for maintaining. How many times have you had to work after
+                        someone on a large scaled project and you are just too afraid to change anything without
+                        something unknown collapsing? When using BEM, you know the exact purpose of the element and in
+                        which block it may appear.</li>
+                    <li class="list-ordered">Class names are logical and intuitive, and every member of the team knows
+                        what that element does on the website. BEM gives everyone on a project a declarative syntax they
+                        can share so they’re on the same page.</li>
+                    <li class="list-ordered">BEM eliminates nested CSS selectors. Every single HTML element has its own
+                        CSS class, and by its name you know what its purpose is. One selector to rule them all.</li>
+                </ol>
+                <h2>Concerns and common mistakes</h2>
+                <ol>
+                    <li class="list-ordered">Do not go too deep into nesting. The main rule should be not to use more
+                        than two levels of parent and child.</li>
+                    <li class="list-ordered">Be careful with where you start your block scope. A common mistake here is
+                        when a developer is using block, but he is not realising that at the later point of development
+                        that same block will have main parent block which will possibly break the rule with nesting.
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <li>
+            <div class="container container-center">
+                <h1>Summary</h1>
+                <p>To wrap things up I think it’s fair to say that even though BEM won’t solve all our problems it is
+                    extraordinarily useful for constructing scalable and maintainable interfaces where everyone on the
+                    team should have a clear idea of how things can be improved. This is because a great deal of front
+                    end development is not just about the nice tricks that solve one little problem in the short term;
+                    we need agreements, promises and binding social contracts between developers so that our codebase
+                    can adapt over time.</p>
+            </div>
+        </li>
+
+    </ul>
 
 
     <footer class="footer">
@@ -48,4 +145,5 @@
         </ul>
     </footer>
 </body>
+
 </html>
