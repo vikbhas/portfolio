@@ -32,6 +32,7 @@ hr {
     margin: auto;
 }
 
+
 /** links **/
 .link {
     box-sizing: border-box;
@@ -71,8 +72,15 @@ hr {
 .list-non-bullet {
     list-style: none;
 }
+.list-non-bullet-meta {
+    list-style: none;
+    padding-left: 0.75rem;
+}
 .list-ordered{
     padding: 0.75rem;
+}
+.list-bold{
+    font-weight: bold;
 }
 
 .list-item-inline {
