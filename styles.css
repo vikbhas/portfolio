@@ -176,3 +176,14 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+#h1-blogs{
+    color: #4B5563;
+    font-weight: bolder;
+}
+
+#h2-blogs{
+    text-decoration: underline;
+    color: #111827;
+    font-weight: bold;
+}

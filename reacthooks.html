@@ -25,33 +25,33 @@
         </ul>
     </nav>
     <header class="hero">
-        <h1 class="hero-heading">React Hooks</span></h1>
+        <h1 class="hero-heading">React <span class="heading-inverted"> Hooks</span></h1>
     </header>
     <ul class="list-non-bullet">
         <li>
             <div class="container container-center">
-                <h1>Introduction</h1>
+                <h1 id="h1-blogs">Introduction</h1>
                 <p>Previously, React features such as state and lifecycle functions are available only for class-based
                     components. Function-based components are referred to as dumb, skinny, or just presentational
                     components because they can’t have access to state and lifecycle functions.</p>
                 <p>But since the release of React Hooks, function-based components have been elevated into first-class
                     citizens of React. It has enabled function components to compose, reuse, and share React code in new
                     ways.</p>
-                <p>In this post, I will share 5 tips about React Hooks that will be useful to keep as a guideline as you
+                <p>In this post, I will share <strong>5 tips </strong> about React Hooks that will be useful to keep as a guideline as you
                     implement hooks into your components.</p>
             </div>
         </li>
         <li>
             <div class="container container-center">
-                <h1>1. Follow the rules of Hooks</h1>
-                <h2>Only call Hooks at the top level</h2>
+                <h1 id="h1-blogs">1. Follow the rules of Hooks</h1>
+                <h2 id="h2-blogs">Only call Hooks at the top level</h2>
                 <p>Don’t call hooks inside loops, conditions, and nested functions. When you want to use some
                     hooks conditionally, write the condition inside those hooks.</p>
                 <p>This rule will ensure that Hooks are called in the same order each time a component renders. That’s
                     what allows React to correctly preserve the state of Hooks between multiple useState and useEffect
                     calls.</p>
 
-                <h2>Only call Hooks from function components</h2>
+                <h2 id="h2-blogs">Only call Hooks from function components</h2>
                 <p>Don’t call hooks from regular JavaScript functions. Call hooks only from function components or
                     custom hooks.</p>
                 <p>By following this rule, you make sure that all stateful logic in a component is clearly visible from
@@ -60,7 +60,7 @@
         </li>
         <li>
             <div class="container container-center">
-                <h1>2. Use the ESLint plugin for React hooks</h1>
+                <h1 id="h1-blogs">2. Use the ESLint plugin for React hooks</h1>
                 <p>React team has also created an ESLint plugin named eslint-plugin-react-hooks to help developers write
                     React Hooks the right way in their projects. This plugin will help you to catch and fix hooks errors
                     before you even try to run your application.</p>
@@ -75,7 +75,7 @@
         </li>
         <li>
             <div class="container container-center">
-                <h1>3. Create your function components in the right order</h1>
+                <h1 id="h1-blogs">3. Create your function components in the right order</h1>
                 <P>When you create class components, there is a certain ordering that optimizes the way you maintain and
                     improve your React application code.</P>
                 <p>First, you call the constructor and initiate your state. Then, you write the lifecycle functions,
@@ -91,7 +91,7 @@
         </li>
         <li>
             <div class="container container-center">
-                <h1>4. Use custom hooks for sharing application logic</h1>
+                <h1 id="h1-blogs">4. Use custom hooks for sharing application logic</h1>
                 <p>As you build your application, you will notice that some of your application logic will be used again
                     and again across many components.</p>
                 <p>You can use tools like Bit (Github) to publish your hooks to a single curated collection. This way
@@ -105,7 +105,7 @@
         </li>
         <li>
             <div class="container container-center">
-                <h1>5. Avoid prop drilling with useContext</h1>
+                <h1 id="h1-blogs">5. Avoid prop drilling with useContext</h1>
                 <p>Prop drilling is a common problem in React application where you pass data down from one parent
                     component through the component layers until it reaches the designated child component, while other
                     nested components don’t actually need them</p>
@@ -119,9 +119,8 @@
         </li>
         <li>
             <div class="container container-center">
-                <h1>Conclusion</h1>
-                <p>React Hooks is a great addition to the React library because it allows you to compose, reuse, and share React code in a way that can’t be done without it.</p>
-                <p>As Hooks change the way developers write React components, a new set of best practices for writing React Hooks are needed to make development and collaboration easier across many teams.</p>
+                <h1 id="h1-blogs">Conclusion</h1>
+                <p>React Hooks is a great addition to the React library because it allows you to compose, reuse, and share React code in a way that can’t be done without it. As Hooks change the way developers write React components, a new set of best practices for writing React Hooks are needed to make development and collaboration easier across many teams.</p>
             </div>
         </li>
 
